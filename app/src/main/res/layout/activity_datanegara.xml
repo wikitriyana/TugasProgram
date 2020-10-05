@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datanegara"
+    android:background="@drawable/bg1"
+    android:padding="20sp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtview"
+        android:text="@string/pilih_nama_negara"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/List"
+        android:layout_marginTop="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

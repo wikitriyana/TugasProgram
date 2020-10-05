@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputNama">
+    <androidx.appcompat.widget.Toolbar
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/kembali"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/lblnama"
+        android:text="@string/Lbl_Nama"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TxtNama"
+        android:textColor="#ffffff"
+        android:inputType="textPersonName|textCapWords"
+        android:importantForAutofill="no"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg2"
+        android:id="@+id/btntampil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="TampilNama"
+        android:text="@string/Btn_Tampil_Nama" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

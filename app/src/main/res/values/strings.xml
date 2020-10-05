@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TugasProgramVsga2020</string>
+    <string name="Lbl_Nama">Nama Anda</string>
+    <string name="Btn_Tampil_Nama">Tampilkan</string>
+    <string name="nama_anda">Nama Anda :</string>
+    <string name="plus">+</string>
+    <string name="mins">-</string>
+    <string name="x_kali">x</string>
+    <string name="_bagi">/</string>
+    <string name="bersihkan">BERSIHKAN</string>
+    <string name="hasil">HASIL</string>
+    <string name="_0">0</string>
+    <string name="pilih_nama_negara">Pilih Nama Negara :</string>
+</resources>
